@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Your custom styles -->
+    <style>
+      /* Add your custom styles here */
+    </style>
+  </head>
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 p-4 text-white z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">Khaja Noman Ahmed</div>
+      <div class="space-x-4">
+        <a href="#home" class="hover:text-gray-300">Home</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#portfolio" class="hover:text-gray-300">Portfolio</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <body class="bg-gray-100 font-sans pt-16">
+    <!-- Home Section -->
+    <section id="home" class="bg-indigo-700 text-white py-20">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <p class="text-lg">
+          I'm a passionate developer ready to create amazing things.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">About Me</h2>
+        <p class="text-lg">As a self-driven undergraduate student pursuing a Bachelor of Engineering degree, I am passionate about exploring new technologies and gaining hands-on experience. </p>
+
+        <!-- Education Section -->
+        <div class="mt-12">
+            <h3 class="text-2xl font-bold mb-4">Education</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Education Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold mb-2">Bachelor's in Information Technologies</h4>
+                    <p class="text-gray-600">Deccan College of Engineering and Technology - HYD</p>
+                    <p class="mt-4">Grades: <span class="font-semibold">Currently persuing</span></p>
+                </div>
+
+                <!-- Education Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold mb-2">Intermediate (MPC) </h4>
+                    <p class="text-gray-600">MS Junior College - HYD</p>
+                    <p class="mt-4">Grades: <span class="font-semibold">93.2 GPA</span></p>
+                </div>
+
+                <!-- Education Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold mb-2">High School (SSC)</h4>
+                    <p class="text-gray-600">Nandini High School - HYD</p>
+                    <p class="mt-4">Grades: <span class="font-semibold">8.3 GPA</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- End of Education Section -->
+    </div>
+  </section>
+
+
+    <section id="skills" class="bg-gray-100 py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Skills</h2>
+        <!-- Skills Grid with Progress Bars -->
+        <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <!-- UI/UX -->
+          <div class="text-left">
+            <img src="assets/uiux.jpg" alt="UI/UX Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">UI/UX</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 75%;"></div>
+            </div>
+          </div>
+          <!-- Figma -->
+          <div class="text-left">
+            <img src="assets/figma.jpg" alt="Figma Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">Figma</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 80%;"></div>
+            </div>
+          </div>
+          <!-- HTML -->
+          <div class="text-left">
+            <img src="assets/html_logo.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">HTML</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="text-left">
+            <img src="assets/css.jpg" alt="HTML Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">CSS</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- python -->
+          <div class="text-left">
+            <img src="assets/python.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">Python</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- Django -->
+          <div class="text-left">
+            <img src="assets/django-framework.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">Django</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- SQL -->
+          <div class="text-left">
+            <img src="assets/sql.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+            <p class="font-semibold mb-2">SQL</p>
+            <div class="bg-gray-300 h-4 rounded-full">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="portfolio" class="bg-gray-100 py-16">
+          <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">My Projects</h2>
+            <!-- Add your project items here -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Project Item 1 -->
+              <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="assets/restaurant .png" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
+                <h3 class="text-lg font-semibold mb-2">Restaurant Website</h3>
+                <p class="text-gray-600">"Crafted a dynamic restaurant website highlighting the venue's atmosphere and diverse menu. The design seamlessly combines visuals, intuitive navigation, and responsiveness, delivering an engaging experience for visitors."</p>
+              </div>
+              <!-- Project Item 2 -->
+              <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="assets/tripzy.png" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
+                <h3 class="text-lg font-semibold mb-2">Tripzy- Travel Agency Website with chatbot</h3>
+                <p class="text-gray-600">"The project focuses on developing a travel agency website with a chatbot, enhancing customer experience and engagement through a user-friendly interface, personalized recommendations, and enhanced payment gateway integration."</p>
+              </div>
+              <!-- Project Item 3 -->
+              <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="assets/maxresdefault.jpg" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
+                <h3 class="text-lg font-semibold mb-2">Billing System for Electronic Store</h3>
+                <p class="text-gray-600">"The computerized billing system for an electronics store, developed in Python, streamlines transactions, inventory, and customer data. Offering increased efficiency and accuracy, it ensures seamless operations, robust inventory management, and enhanced customer service."</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <!-- Contact Section -->
+        <section id="contact" class="py-16">
+          <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="text-lg">Feel free to reach out to me via email or social media.</p>
+            <div class="mt-6 flex justify-center items-center space-x-4">
+              <!-- Social Media Icons -->
+              <a href="https://www.instagram.com/nomaan_ux/" class="text-gray-600 hover:text-indigo-500">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="#" class="text-gray-600 hover:text-indigo-500">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+              </a>
+              <a href="#" class="text-gray-600 hover:text-indigo-500">
+                <i class="fab fa-dribbble fa-2x"></i>
+              </a>
+            </div>
+            <div class="mt-6">
+              <!-- Add your contact form or additional links here -->
+              <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-full hover:bg-indigo-600">Send Email</a>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white text-center py-4">
+          <p>&copy; 2023 Khaja Noman Ahmed. All rights reserved.</p>
+        </footer>
+
+        <!-- Your custom JavaScript -->
+        <script>
+          // Add your JavaScript code here
+        </script>
+  </body>
+</html>
