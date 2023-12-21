@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Khaja Noman Ahmed</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khaja Noman Ahmed</title>
 
-    <!-- Tailwind CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <!-- Font Awesome CDN for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
 
   <!-- SEO meta tags -->
   <meta name="description" content="Your brief description about yourself and your skills." />
-  <meta name="keywords" content="portfolio, developer, web development, UI/UX, Figma, HTML, CSS, TailwindCSS, Python, Django" />
+  <meta name="keywords"
+    content="portfolio, developer, web development, UI/UX, Figma, HTML, CSS, TailwindCSS, Python, Django" />
   <meta name="author" content="Khaja Noman Ahmed" />
 
   <!-- Open Graph meta tags for social media -->
   <meta property="og:title" content="khaja noman ahmed" />
   <meta property="og:description" content="Your brief description about yourself and your skills." />
-  <meta property="og:image" content="https://github.com/nomaanahmeddd/nomaanahmed/blob/3265ee9077c81a2f2e2a46414469dc32371dbbf5/assets/Screenshot%202023-12-20%20003135.png" />
+  <meta property="og:image"
+    content="https://github.com/nomaanahmeddd/nomaanahmed/blob/3265ee9077c81a2f2e2a46414469dc32371dbbf5/assets/Screenshot%202023-12-20%20003135.png" />
   <meta property="og:url" content="https://nomaanahmeddd.github.io/nomaanahmed/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Khaja Noman Ahmed" />
@@ -29,197 +32,332 @@
 
   <meta property="og:title" content="Khaja Noman Ahmed" />
   <meta property="og:description" content="Your brief description about yourself and your skills." />
-  <meta property="og:image" content="https://github.com/nomaanahmeddd/nomaanahmed/blob/3265ee9077c81a2f2e2a46414469dc32371dbbf5/assets/Screenshot%202023-12-20%20003135.png" />
+  <meta property="og:image"
+    content="https://github.com/nomaanahmeddd/nomaanahmed/blob/3265ee9077c81a2f2e2a46414469dc32371dbbf5/assets/Screenshot%202023-12-20%20003135.png" />
   <meta property="og:url" content="https://nomaanahmeddd.github.io/nomaanahmed/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="khaja Noman Ahmed" />
 
-  </head>
+</head>
 
-  <!-- Navigation -->
-  <nav class="fixed top-0 left-0 w-full bg-gray-800 p-4 text-white z-50">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="text-2xl font-bold">Khaja Noman Ahmed</div>
-      <div class="space-x-4">
-        <a href="#home" class="hover:text-gray-300">Home</a>
-        <a href="#about" class="hover:text-gray-300">About</a>
-        <a href="#portfolio" class="hover:text-gray-300">Projects</a>
-        <a href="#contact" class="hover:text-gray-300">Contact</a>
-      </div>
+<!-- Navigation -->
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full bg-black p-4 text-white z-50">
+  <div class="container mx-auto flex justify-between items-center">
+    <a class="text-2xl font-bold">
+      <span class="text-red-500">P</span><span class="text-white">ortfolio</span> <!-- Rest of the letters in white -->
+    </a>
+    <div class="space-x-4 font-bold">
+      <a href="#home" class="hover:text-gray-300">
+        <span class="text-red-500">H</span><span class="text-white">ome</span>
+      </a>
+      <a href="#about" class="hover:text-gray-300">
+        <span class="text-red-500">A</span><span class="text-white">bout</span>
+      </a>
+      <a href="#portfolio" class="hover:text-gray-300">
+        <span class="text-red-500">P</span><span class="text-white">ortfolio</span>
+      </a>
+      <a href="#articles" class="hover:text-gray-300">
+        <span class="text-red-500">A</span><span class="text-white">rticles</span>
+      </a>
+      <a href="#contact" class="hover:text-gray-300">
+        <span class="text-red-500">C</span><span class="text-white">ontact</span>
+      </a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <body class="bg-gray-100 font-sans pt-16">
-    <!-- Home Section -->
-    <section id="home" class="bg-indigo-700 text-white py-20">
-      <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+
+<body class="bg-black font-sans pt-16">
+  <!-- Home Section -->
+  <section id="home" class="bg-black text-white py-20 min-h-screen flex flex-col items-center justify-center">
+    <div class="container mx-auto flex flex-col items-center md:flex-row md:items-center justify-between">
+      <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
+        <!-- Adjust the size of the image -->
+        <img src="assets/profile.jpeg" alt="Profile Picture"
+          class="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-yellow-500  shadow-lg">
+      </div>
+      <div class="text-center md:text-right">
+        <h1 class="text-4xl font-bold mb-4">
+          <span class="text-red-500">K</span>haja Noman Ahmed
+        </h1>
         <p class="text-lg">
           I'm a passionate developer ready to create amazing things.
         </p>
-      </div>
-    </section>
-
-    <!-- About Section -->
-  <section id="about" class="py-16 animate__animated animate__fadeIn">
-    <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-8">About Me</h2>
-        <p class="text-lg">As a self-driven undergraduate student pursuing a Bachelor of Engineering degree, I am passionate about exploring new technologies and gaining hands-on experience. </p>
-
-        <!-- Education Section -->
-        <div class="mt-12">
-            <h3 class="text-2xl font-bold mb-4">Education</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Education Card 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">Bachelor's in Information Technologies</h4>
-                    <p class="text-gray-600">Deccan College of Engineering and Technology - HYD</p>
-                    <p class="mt-4">Grades: <span class="font-semibold">Currently persuing</span></p>
-                </div>
-
-                <!-- Education Card 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">Intermediate (MPC) </h4>
-                    <p class="text-gray-600">MS Junior College - HYD</p>
-                    <p class="mt-4">Grades: <span class="font-semibold">93.2 GPA</span></p>
-                </div>
-
-                <!-- Education Card 3 -->
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">High School (SSC)</h4>
-                    <p class="text-gray-600">Nandini High School - HYD</p>
-                    <p class="mt-4">Grades: <span class="font-semibold">8.3 GPA</span></p>
-                </div>
-            </div>
+        <div class="mt-8">
+          <!-- Add a creative call-to-action button -->
+          <a href="#portfolio"
+            class="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold hover:bg-indigo-700 hover:text-white transition duration-300">Contact
+            Me</a>
         </div>
-        <!-- End of Education Section -->
+      </div>
     </div>
   </section>
 
 
-    <section id="skills" class="bg-gray-100 py-16 animate__animated animate__fadeIn">
-      <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-8">Skills</h2>
-        <!-- Skills Grid with Progress Bars -->
-        <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          <!-- UI/UX -->
-          <div class="text-left">
-            <img src="assets/uiux.jpg" alt="UI/UX Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">UI/UX</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 75%;"></div>
-            </div>
-          </div>
-          <!-- Figma -->
-          <div class="text-left">
-            <img src="assets/figma.jpg" alt="Figma Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">Figma</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 80%;"></div>
-            </div>
-          </div>
-          <!-- HTML -->
-          <div class="text-left">
-            <img src="assets/html_logo.png" alt="HTML Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">HTML</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 70%;"></div>
-            </div>
-          </div>
-          <!-- CSS -->
-          <div class="text-left">
-            <img src="assets/css.jpg" alt="HTML Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">CSS</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 60%;"></div>
-            </div>
-          </div>
-          <!-- python -->
-          <div class="text-left">
-            <img src="assets/python.png" alt="HTML Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">Python</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 40%;"></div>
-            </div>
-          </div>
-          <!-- Django -->
-          <div class="text-left">
-            <img src="assets/django-framework.png" alt="HTML Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">Django</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 50%;"></div>
-            </div>
-          </div>
-          <!-- SQL -->
-          <div class="text-left">
-            <img src="assets/sql.png" alt="HTML Logo" class="w-100 h-100 mb-4">
-            <p class="font-semibold mb-2">SQL</p>
-            <div class="bg-gray-300 h-4 rounded-full">
-              <div class="bg-indigo-500 h-full rounded-full" style="width: 50%;"></div>
-            </div>
-          </div>
-        </section>
 
-        <!-- Project Section -->
-        <section id="portfolio" class="bg-gray-100 py-16 animate__animated animate__fadeIn">
-          <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">My Projects</h2>
-            <!-- Add your project items here -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              <!-- Project Item 1 -->
-              <div class="bg-white p-4 shadow-md rounded-lg">
-                <img src="assets/restaurant .png" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
-                <h3 class="text-lg font-semibold mb-2">Restaurant Website</h3>
-                <p class="text-gray-600">"Crafted a dynamic restaurant website highlighting the venue's atmosphere and diverse menu. The design seamlessly combines visuals, intuitive navigation, and responsiveness, delivering an engaging experience for visitors."</p>
-              </div>
-              <!-- Project Item 2 -->
-              <div class="bg-white p-4 shadow-md rounded-lg">
-                <img src="assets/tripzy.png" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
-                <h3 class="text-lg font-semibold mb-2">Tripzy- Travel Agency Website with chatbot</h3>
-                <p class="text-gray-600">"The project focuses on developing a travel agency website with a chatbot, enhancing customer experience and engagement through a user-friendly interface, personalized recommendations, and enhanced payment gateway integration."</p>
-              </div>
-              <!-- Project Item 3 -->
-              <div class="bg-white p-4 shadow-md rounded-lg">
-                <img src="assets/maxresdefault.jpg" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
-                <h3 class="text-lg font-semibold mb-2">Billing System for Electronic Store</h3>
-                <p class="text-gray-600">"The computerized billing system for an electronics store, developed in Python, streamlines transactions, inventory, and customer data. Offering increased efficiency and accuracy, it ensures seamless operations, robust inventory management, and enhanced customer service."</p>
-              </div>
+  <!-- About Section -->
+  <section id="about" class="py-16 animate__animated animate__fadeIn min-h-screen">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">
+        <span class="text-red-500">A</span><span class="text-white">bout Me</span>
+      </h2>
+      <p class="text-lg text-white">An IT undergraduate with a strong foundation in web development, I am expanding my skills into data analytics for a holistic perspective. Driven by a passion for extracting insights from data, this shift aligns with the growing demand for analytics professionals and complements my goal of creating impactful and data-driven solutions.
+      </p>
+
+      <!-- Education Section -->
+      <div class="mt-12">
+        <h3 class="text-3xl font-bold mb-8">
+          <span class="text-red-500">E</span><span class="text-white">ducation</span>
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Education Card 1 -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-semibold mb-2">Bachelor's in Information Technologies</h4>
+            <p class="text-gray-600">Deccan College of Engineering and Technology - HYD</p>
+            <p class="mt-4">Grades: <span class="font-semibold">Currently persuing</span></p>
+          </div>
+
+          <!-- Education Card 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-semibold mb-2">Intermediate (MPC) </h4>
+            <p class="text-gray-600">MS Junior College - HYD</p>
+            <p class="mt-4">Grades: <span class="font-semibold">93.2 GPA</span></p>
+          </div>
+
+          <!-- Education Card 3 -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h4 class="text-xl font-semibold mb-2">High School (SSC)</h4>
+            <p class="text-gray-600">Nandini High School - HYD</p>
+            <p class="mt-4">Grades: <span class="font-semibold">8.3 GPA</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- End of Education Section -->
+    </div>
+  </section>
+
+
+  <section id="skills" class="bg-black py-16 animate__animated animate__fadeIn min-h-screen">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">
+        <span class="text-red-500">S</span><span class="text-white">kills</span>
+      </h2>
+      <!-- Skills Grid with Progress Bars -->
+      <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!-- UI/UX -->
+        <div class="text-left">
+          <img src="assets/uiux.jpg" alt="UI/UX Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">UI/UX</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 75%;"></div>
+          </div>
+        </div>
+        <!-- Figma -->
+        <div class="text-left">
+          <img src="assets/figma.jpg" alt="Figma Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">Figma</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 80%;"></div>
+          </div>
+        </div>
+        <!-- HTML -->
+        <div class="text-left">
+          <img src="assets/html_logo.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">HTML</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 70%;"></div>
+          </div>
+        </div>
+        <!-- CSS -->
+        <div class="text-left">
+          <img src="assets/css.jpg" alt="HTML Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">CSS</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 60%;"></div>
+          </div>
+        </div>
+        <!-- python -->
+        <div class="text-left">
+          <img src="assets/python.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">Python</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 40%;"></div>
+          </div>
+        </div>
+        <!-- Django -->
+        <div class="text-left">
+          <img src="assets/django-framework.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">Django</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 50%;"></div>
+          </div>
+        </div>
+        <!-- SQL -->
+        <div class="text-left">
+          <img src="assets/sql.png" alt="HTML Logo" class="w-100 h-100 mb-4">
+          <p class="font-semibold mb-2">SQL</p>
+          <div class="bg-gray-300 h-4 rounded-full">
+            <div class="bg-yellow-500 h-full rounded-full" style="width: 50%;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section id="portfolio" class="bg-black py-16 animate__animated animate__fadeIn min-h-screen">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-8">
+            <span class="text-red-500">P</span><span class="text-white">rojects</span>
+          </h2>
+          <!-- Add your project items here -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Item 1 -->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/restaurant .png" alt="Portfolio Item 1"
+                class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Restaurant Website</h3>
+              <p class="text-gray-600">"Crafted a dynamic restaurant website highlighting the venue's atmosphere and
+                diverse menu. The design seamlessly combines visuals, intuitive navigation, and responsiveness,
+                delivering an engaging experience for visitors."</p>
+            </div>
+            <!-- Project Item 2 -->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/tripzy.png" alt="Portfolio Item 1" class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Tripzy- Travel Agency Website with chatbot</h3>
+              <p class="text-gray-600">"The project focuses on developing a travel agency website with a chatbot,
+                enhancing customer experience and engagement through a user-friendly interface, personalized
+                recommendations, and enhanced payment gateway integration."</p>
+            </div>
+            <!-- Project Item 3 -->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/maxresdefault.jpg" alt="Portfolio Item 1"
+                class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Billing System for Electronic Store</h3>
+              <p class="text-gray-600">"The computerized billing system for an electronics store, developed in Python,
+                streamlines transactions, inventory, and customer data. Offering increased efficiency and accuracy, it
+                ensures seamless operations, robust inventory management, and enhanced customer service."</p>
+            </div>
+            <!-- Project Item 4 -->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/Price-Drop-Alert-1400x820.jpg" alt="Portfolio Item 1"
+                class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Cashifier- A price Notifier</h3>
+              <p class="text-gray-600">"Contributed as a UI Designer for a Python-based solution that allows customers to input product details, stocks, or cryptocurrencies they are interested in tracking. Our robust web scraping script then goes to work, gathering real-time data from various sources to monitor price fluctuations."</p>
+            </div>
+             <!-- Project Item 5 -->
+             <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/color.jpg" alt="Portfolio Item 1"
+                class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Color Detection using Open cv2</h3>
+              <p class="text-gray-600">"Implemented color detection using Open cv2.Data processing played a crucial role in this project—extracting RGB values, converting to HSV, and applying filters"</p>
+            </div>
+            <!-- Project Item 6-->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+              <img src="assets/brain.jpg" alt="Portfolio Item 1"
+                class="w-100 h-100 object-cover mb-4 rounded-md" />
+              <h3 class="text-lg font-semibold mb-2">Brain Tumor Detection</h3>
+              <p class="text-gray-600">"In this project, I harnessed the power of advanced machine learning algorithms to create a robust brain tumor detection system. Leveraging cutting-edge technologies, the website enables users to upload MRI images for analysis. The images undergo preprocessing and feature extraction before being fed into a trained model."</p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="py-16">
-          <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
-            <p class="text-lg">Feel free to reach out to me via email or social media.</p>
-            <div class="mt-6 flex justify-center items-center space-x-4">
-              <!-- Social Media Icons -->
-              <a href="https://www.instagram.com/nomaan_ux/" class="text-gray-600 hover:text-indigo-500">
+<!-- Article Section -->
+<section id="articles" class="bg-black py-16 min-h-screen">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8">
+      <span class="text-red-500">A</span><span class="text-white">rticals</span>
+    </h2>
+
+    <!-- Article Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
+      <!-- Article Card 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Father of Algorithm</h3>
+        <p class="text-gray-600">Published on: September 4, 2023</p>
+        <p class="mt-4">The word "algorithm" comes from the name of a Muslim mathematician and scientist, Muhammad al-Khwarizmi. He developed the concept of algorithms and is also credited with inventing algebra. The word "algorithm" is derived from his name.</p>
+        <a href="https://www.linkedin.com/pulse/father-algorithm-muhammad-ibn-musa-al-khwarizmi-khaja-noman-ahmed/" class="mt-4 text-indigo-500 inline-flex items-center">Read Now
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <!-- Article Card 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Revolutionizing the Future with Machine Learning</h3>
+        <p class="text-gray-600">Published on: June 12, 2023</p>
+        <p class="mt-4">This article explores the fundamental concepts, applications, and implications of machine learning and How Machine Learning (ML), is an integral part of artificial intelligence (AI), and has emerged as a transformative technology, revolutionizing various industries</p>
+        <a href="https://www.linkedin.com/pulse/revolutionizing-future-machine-learning-khaja-noman-ahmed/" class="mt-4 text-indigo-500 inline-flex items-center">Read Now
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Article Card 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Unveiling the Secrets of Self-Organizing Maps (SOM) in Machine Learning
+        </h3>
+        <p class="text-gray-600">Published on: July 18, 2023</p>
+        <p class="mt-4">Among the myriad of ML algorithms, Self-Organizing Maps (SOM) stands out as a powerful tool for data visualization, clustering, and dimensionality reduction. In this article, we'll delve into the inner workings of SOM.</p>
+        <a href="https://www.linkedin.com/pulse/unveiling-secrets-self-organizing-maps-som-machine-learning-ahmed/" class="mt-4 text-indigo-500 inline-flex items-center">Read Now
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+      <!-- Contact Me Section -->
+
+      <section class="text-gray-600 body-font relative bg-black" id="contact">
+        <div class="container mx-auto flex flex-wrap items-center justify-center py-24">
+          <!-- Contact Information on the Center -->
+          <div class="text-center text-white">
+            <h2 class="text-3xl font-bold mb-8">
+              <span class="text-red-500">C</span><span class="text-white">ontact Me</span>
+            </h2>
+            <div class="mb-4">
+              <p class="leading-relaxed text-gray-400">Fell free to contact me through Email or Social Media</p>
+            </div>
+
+            <!-- Email and Phone Section -->
+            <div class="mb-4">
+              <h3 class="text-lg mb-2 font-semibold">Contact Information</h3>
+              <p class="leading-relaxed text-gray-400">Email: <a href="mailto:nomaanahmed456+2@gmail.com"
+                  class="text-indigo-400">nomaanahmed456+2@gmail.com</a></p>
+              <p class="leading-relaxed text-gray-400">WhatsApp: +91 6303 370 523</p>
+            </div>
+
+            <!-- Social Media Buttons -->
+            <div class="flex flex-wrap justify-center mb-4">
+              <a href="https://www.instagram.com/nomaan_ux/" class="text-white mr-4 mb-2 hover:text-pink-500">
                 <i class="fab fa-instagram fa-2x"></i>
               </a>
-              <a href="www.linkedin.com/in/khajanomanahmed" class="text-gray-600 hover:text-indigo-500">
+              <a href="www.linkedin.com/in/khajanomanahmed" class="text-white mr-4 mb-2 hover:text-blue-600">
                 <i class="fab fa-linkedin-in fa-2x"></i>
               </a>
-              <a href="https://dribbble.com/nomaan_ux" class="text-gray-600 hover:text-indigo-500">
+              <a href="https://dribbble.com/nomaan_ux" class="text-white mb-2 hover:text-pink-500">
                 <i class="fab fa-dribbble fa-2x"></i>
               </a>
             </div>
-            <div class="mt-6">
-              <!-- Add your contact form or additional links here -->
-              <a href="mailto:nomaanahmed456+2@gmail.com" class="bg-indigo-500 text-white px-4 py-2 rounded-full hover:bg-indigo-600">Send Email</a>
-            </div>
           </div>
-        </section>
-        
-        <!-- Footer -->
-        <footer class="bg-gray-800 text-white text-center py-4">
-          <p>&copy; 2023 Khaja Noman Ahmed. All rights reserved.</p>
-        </footer>
+        </div>
+      </section>
+      <footer class="bg-black text-white text-center py-6">
+        <p>&copy; 2023 Khaja Noman Ahmed. All rights reserved.</p>
+      </footer>
 
-        <!-- Your custom JavaScript -->
-        <script>
-          // Add your JavaScript code here
-        </script>
-  </body>
+      <!-- Your custom JavaScript -->
+      <script>
+        // Add your JavaScript code here
+      </script>
+</body>
+
 </html>
